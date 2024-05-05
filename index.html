@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>MAD Pacer</title>
+
+    <link rel="stylesheet" media="only screen and (orientation: landscape)" href="landscape.css">
+    <link rel="stylesheet" media="only screen and (orientation: portrait)" href="portrait.css">
+
+    <link rel="icon" sizes="192x192" href="192icon.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="128icon.png">
+
+</head>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<body>
+<header>
+    <h1>Pacer</h1>
+</header>
+<main>
+    <div id="inputzone">
+        <p id="time">0</p>
+        <p id="distance">0</p>
+        <p id="pace">---</p>
+        <div id="keypad">
+            <button id="b7">7</button>
+            <button id="b8">8</button>
+            <button id="b9">9</button>
+            <br>
+            <button id="b4">4</button>
+            <button id="b5">5</button>
+            <button id="b6">6</button>
+            <br>
+            <button id="b1">1</button>
+            <button id="b2">2</button>
+            <button id="b3">3</button>
+            <br>
+            <button id="bC">C</button>
+            <button id="b0">0</button>
+            <button id="blArrow">⇦</button>
+        </div>
+    </div>
+    <div id="livezone">
+    </div>
+    <div id="inclinezone">
+        <p id="show-incline">◬ Tap to show incline ◬</p>
+        <button id="bStart">start</button>
+        <p id="live-distance"></p>
+        <p id="average-pace"></p>
+    </div>
+</main>
+<footer></footer>
+<script src="madone.js"></script>
+</body>
+</html>

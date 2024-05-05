@@ -1,0 +1,93 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: min(6vh,11vw);
+    font-family: sans-serif;
+    background-color: #CBF3F3;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    margin: 0 0 2vh 0;
+    padding: 0;
+    background: #1abc9c;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+    display: inline;
+    font-size: min(10vh,25vw);
+    margin: 0;
+    padding: 0;
+}
+#time,#distance,#pace{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-size: 0.6rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+#inclinezone > p {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.6rem;
+}
+
+#inclinezone > #show-incline{
+    margin: 2vh 0;
+    font-size: 0.45rem;
+}
+
+
+#keypad > button {
+    font-size: 0.55rem;
+    margin: 0.15rem 0.075rem;
+    padding: 2.8vmin 12vmin;
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    color: #fff;
+    background-color: #007c89;
+    border-radius: 0.1rem
+}
+
+
+#keypad > button:active{
+    transform: translateY(0.05rem);
+}
+
+#inclinezone > button {
+    font-size: 0.6rem;
+    margin: 0 0 2vh 0;
+    padding: 1vmin 7vmin;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius:0.1rem;
+    border: 0.075rem solid #007c89;
+    background: linear-gradient(to right, #138575FF 0%, #1E80CBFF 50%, #8664E8FF 100%);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
